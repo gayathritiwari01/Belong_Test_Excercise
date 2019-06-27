@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.186 s <<< FAILURE! - in runners.RunCukesTest
+runScenario(runners.RunCukesTest)  Time elapsed: 17.929 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+Could not convert arguments for step [^I enter all the mandatory information$] defined at 'project.stepdefs.RegisterSteps.I_Enter_My_Regular_Income_Sources(Transaction) in file:/C:/Users/gayat/eclipse-workspace/belong-test-exercise/target/classes/'.
+The details are in the stacktrace below.
+Caused by: io.cucumber.datatable.CucumberDataTableException: 
+'project.dataobjects.Transaction' could not transform
+      | First name | Last name | Email                       | Password | First name | Last name | Address  | City  | State    | Zip/Postal Code | Country       | Mobile phone |
+      | G          | T         | gayathri.tiwari01@gmail.com | Gaya3    | G          | T         | Mumba St | Texas | Victoria | 30000           | United States | 04455667788  |
+
+Caused by: io.cucumber.datatable.CucumberDataTableException: Can't convert DataTable to Map<java.lang.String, java.lang.String>. Encountered duplicate key First name with values G and G
+

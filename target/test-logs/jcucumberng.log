@@ -1,0 +1,18 @@
+[INFO ] 2019-06-27 22:53:12,132 ScenarioHook.setUp() - BEGIN TEST -> Register with valid email
+[INFO ] 2019-06-27 22:53:12,160 ScenarioHook.setUp() - Browser=CHROME32
+[DEBUG] 2019-06-27 22:53:13,130 Preferences.checkKeyInPreferences() - Preference found chrome74=74.0.3729.6 (valid until 2019-06-28 22:13:48)
+[INFO ] 2019-06-27 22:53:13,131 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 74.0.3729.6 (since Google Chrome 74 is installed in your machine)
+[DEBUG] 2019-06-27 22:53:13,179 WebDriverManager.manage() - Driver chromedriver 74.0.3729.6 found in cache
+[INFO ] 2019-06-27 22:53:13,181 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\74.0.3729.6\chromedriver.exe
+[INFO ] 2019-06-27 22:53:17,939 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
+[DEBUG] 2019-06-27 22:53:29,061 RegisterSteps.I_Am_At_The_Authentication_Page() - Base URL=http://automationpractice.com/index.php?controller=authentication&back=my-account
+[INFO ] 2019-06-27 22:53:34,858 ScenarioHook.tearDown() - END TEST -> Register with valid email - PASSED
+[INFO ] 2019-06-27 22:53:36,062 ScenarioHook.setUp() - BEGIN TEST -> Register with invalid email
+[INFO ] 2019-06-27 22:53:36,064 ScenarioHook.setUp() - Browser=CHROME32
+[DEBUG] 2019-06-27 22:53:36,312 Preferences.checkKeyInPreferences() - Preference found chrome74=74.0.3729.6 (valid until 2019-06-28 22:13:48)
+[INFO ] 2019-06-27 22:53:36,312 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 74.0.3729.6 (since Google Chrome 74 is installed in your machine)
+[DEBUG] 2019-06-27 22:53:36,320 WebDriverManager.manage() - Driver chromedriver 74.0.3729.6 found in cache
+[INFO ] 2019-06-27 22:53:36,323 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\74.0.3729.6\chromedriver.exe
+[INFO ] 2019-06-27 22:53:39,930 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
+[DEBUG] 2019-06-27 22:53:51,661 RegisterSteps.I_Am_At_The_Authentication_Page() - Base URL=http://automationpractice.com/index.php?controller=authentication&back=my-account
+[INFO ] 2019-06-27 22:53:58,480 ScenarioHook.tearDown() - END TEST -> Register with invalid email - PASSED
