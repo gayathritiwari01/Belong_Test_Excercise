@@ -9,7 +9,7 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.datatable.DataTableType;
 import io.cucumber.datatable.TableEntryTransformer;
 import io.cucumber.datatable.TableTransformer;
-import project.dataobjects.Transaction;
+import project.dataobjects.Item;
 
 public class Configurer implements TypeRegistryConfigurer {
 
@@ -25,10 +25,10 @@ public class Configurer implements TypeRegistryConfigurer {
 		 * Maps DataTable with header row to multiple objects of Type<T>. Each row below
 		 * the header is an object.
 		 */
-		registry.defineDataTableType(new DataTableType(Transaction.class, new TableEntryTransformer<Transaction>() {
+		registry.defineDataTableType(new DataTableType(Item.class, new TableEntryTransformer<Item>() {
 			@Override
-			public Transaction transform(Map<String, String> entry) {
-				return Transaction.getInstance(entry);
+			public Item transform(Map<String, String> entry) {
+				return Item.getInstance(entry);
 			}
 		}));
 
@@ -36,10 +36,10 @@ public class Configurer implements TypeRegistryConfigurer {
 		 * Maps DataTable with label column to a single object of Type<T>. Left column
 		 * is field name, right column is value.
 		 */
-		registry.defineDataTableType(new DataTableType(Transaction.class, new TableTransformer<Transaction>() {
+		registry.defineDataTableType(new DataTableType(Item.class, new TableTransformer<Item>() {
 			@Override
-			public Transaction transform(DataTable table) throws Throwable {
-				return Transaction.getInstance(table.asMaps().get(0));
+			public Item transform(DataTable table) throws Throwable {
+				return Item.getInstance(table.asMaps().get(0));
 			}
 		}));
 

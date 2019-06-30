@@ -6,10 +6,8 @@
   
   
   	<packaging>jar</packaging>
-	
 	<name>jCucumberNG-Framework</name>
 	<description>A test framework using Selenium, Cucumber, and ngWebDriver (Protractor) in Java.</description>
-	<url>https://github.com/kathyrollo/jcucumberng-framework</url>
 	
 	<properties>
 		<!-- Project -->

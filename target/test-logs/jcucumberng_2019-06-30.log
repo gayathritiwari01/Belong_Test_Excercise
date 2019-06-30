@@ -1,0 +1,9 @@
+[INFO ] 2019-06-30 20:22:28,871 ScenarioHook.setUp() - BEGIN TEST -> Add a summer dress to cart
+[INFO ] 2019-06-30 20:22:28,890 ScenarioHook.setUp() - Browser=CHROME32_NOHEAD
+[DEBUG] 2019-06-30 20:22:29,650 Preferences.checkKeyInPreferences() - Preference found chrome75=75.0.3770.8 (valid until 2019-07-01 16:58:26)
+[INFO ] 2019-06-30 20:22:29,651 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 75.0.3770.8 (since Google Chrome 75 is installed in your machine)
+[DEBUG] 2019-06-30 20:22:29,674 WebDriverManager.manage() - Driver chromedriver 75.0.3770.8 found in cache
+[INFO ] 2019-06-30 20:22:29,676 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe
+[INFO ] 2019-06-30 20:22:34,446 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
+[DEBUG] 2019-06-30 20:22:41,881 MegamenuCartSteps.I_Am_At_megamenu_Page() - Base URL=http://automationpractice.com/index.php?id_category=8&controller=category
+[INFO ] 2019-06-30 20:23:05,304 ScenarioHook.tearDown() - END TEST -> Add a summer dress to cart - PASSED

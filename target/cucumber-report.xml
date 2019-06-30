@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="47.624754">
-    <testcase classname="Registration" name="Register with valid email" time="24.036861">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="106.898163">
+    <testcase classname="Registration" name="Add a summer dress to cart" time="37.818112">
+        <system-out>
+            <![CDATA[Given I am at the megamenu page.............................................passed
+When I navigate to Summer Dresses via megamenu Dresses......................passed
+And I should be able to add a dress to the cart.............................passed
+And I navigate to the Cart Summary page.....................................passed
+Then I should see product details...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Registration" name="Register with valid email" time="33.660968">
         <system-out>
             <![CDATA[Given I am at the Authentication page.......................................passed
 When enter a valid email address: gayathri.tiwari01@yopmail.com.au..........passed
@@ -8,7 +18,7 @@ Then I should be able to proceed with Registeration: Create an account......pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Registration" name="Register with invalid email" time="23.587893">
+    <testcase classname="Registration" name="Register with invalid email" time="35.419083">
         <system-out>
             <![CDATA[Given I am at the Authentication page.......................................passed
 When enter an invalid email address.........................................passed

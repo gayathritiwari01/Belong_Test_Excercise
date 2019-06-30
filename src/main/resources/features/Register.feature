@@ -1,4 +1,4 @@
-@register
+@register @automationpractise
 Feature: Registration
   As a user
   I want to register myself to automation practice website

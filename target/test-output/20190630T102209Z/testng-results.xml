@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-30T10:22:27Z" name="Surefire suite" finished-at="2019-06-30T10:23:08Z" duration-ms="41187">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCukesTest@78aab498]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-06-30T10:22:27Z" name="Surefire test" finished-at="2019-06-30T10:23:08Z" duration-ms="41187">
+      <class name="runners.RunCukesTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.RunCukesTest@78aab498]" started-at="2019-06-30T10:22:27Z" name="setUpClass" finished-at="2019-06-30T10:22:28Z" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCukesTest@78aab498]" started-at="2019-06-30T10:22:28Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-30T10:23:06Z" duration-ms="37958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a summer dress to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RunCukesTest@78aab498]" started-at="2019-06-30T10:23:06Z" name="tearDownClass" finished-at="2019-06-30T10:23:08Z" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.RunCukesTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

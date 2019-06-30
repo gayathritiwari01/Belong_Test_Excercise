@@ -1,18 +1,27 @@
-[INFO ] 2019-06-27 22:53:12,132 ScenarioHook.setUp() - BEGIN TEST -> Register with valid email
-[INFO ] 2019-06-27 22:53:12,160 ScenarioHook.setUp() - Browser=CHROME32
-[DEBUG] 2019-06-27 22:53:13,130 Preferences.checkKeyInPreferences() - Preference found chrome74=74.0.3729.6 (valid until 2019-06-28 22:13:48)
-[INFO ] 2019-06-27 22:53:13,131 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 74.0.3729.6 (since Google Chrome 74 is installed in your machine)
-[DEBUG] 2019-06-27 22:53:13,179 WebDriverManager.manage() - Driver chromedriver 74.0.3729.6 found in cache
-[INFO ] 2019-06-27 22:53:13,181 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\74.0.3729.6\chromedriver.exe
-[INFO ] 2019-06-27 22:53:17,939 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
-[DEBUG] 2019-06-27 22:53:29,061 RegisterSteps.I_Am_At_The_Authentication_Page() - Base URL=http://automationpractice.com/index.php?controller=authentication&back=my-account
-[INFO ] 2019-06-27 22:53:34,858 ScenarioHook.tearDown() - END TEST -> Register with valid email - PASSED
-[INFO ] 2019-06-27 22:53:36,062 ScenarioHook.setUp() - BEGIN TEST -> Register with invalid email
-[INFO ] 2019-06-27 22:53:36,064 ScenarioHook.setUp() - Browser=CHROME32
-[DEBUG] 2019-06-27 22:53:36,312 Preferences.checkKeyInPreferences() - Preference found chrome74=74.0.3729.6 (valid until 2019-06-28 22:13:48)
-[INFO ] 2019-06-27 22:53:36,312 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 74.0.3729.6 (since Google Chrome 74 is installed in your machine)
-[DEBUG] 2019-06-27 22:53:36,320 WebDriverManager.manage() - Driver chromedriver 74.0.3729.6 found in cache
-[INFO ] 2019-06-27 22:53:36,323 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\74.0.3729.6\chromedriver.exe
-[INFO ] 2019-06-27 22:53:39,930 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
-[DEBUG] 2019-06-27 22:53:51,661 RegisterSteps.I_Am_At_The_Authentication_Page() - Base URL=http://automationpractice.com/index.php?controller=authentication&back=my-account
-[INFO ] 2019-06-27 22:53:58,480 ScenarioHook.tearDown() - END TEST -> Register with invalid email - PASSED
+[INFO ] 2019-06-30 20:23:56,223 ScenarioHook.setUp() - BEGIN TEST -> Add a summer dress to cart
+[INFO ] 2019-06-30 20:23:56,247 ScenarioHook.setUp() - Browser=CHROME32_NOHEAD
+[DEBUG] 2019-06-30 20:23:56,928 Preferences.checkKeyInPreferences() - Preference found chrome75=75.0.3770.8 (valid until 2019-07-01 16:58:26)
+[INFO ] 2019-06-30 20:23:56,929 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 75.0.3770.8 (since Google Chrome 75 is installed in your machine)
+[DEBUG] 2019-06-30 20:23:56,970 WebDriverManager.manage() - Driver chromedriver 75.0.3770.8 found in cache
+[INFO ] 2019-06-30 20:23:56,972 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe
+[INFO ] 2019-06-30 20:24:01,711 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
+[DEBUG] 2019-06-30 20:24:09,273 MegamenuCartSteps.I_Am_At_megamenu_Page() - Base URL=http://automationpractice.com/index.php?id_category=8&controller=category
+[INFO ] 2019-06-30 20:24:32,913 ScenarioHook.tearDown() - END TEST -> Add a summer dress to cart - PASSED
+[INFO ] 2019-06-30 20:24:34,079 ScenarioHook.setUp() - BEGIN TEST -> Register with valid email
+[INFO ] 2019-06-30 20:24:34,080 ScenarioHook.setUp() - Browser=CHROME32_NOHEAD
+[DEBUG] 2019-06-30 20:24:34,308 Preferences.checkKeyInPreferences() - Preference found chrome75=75.0.3770.8 (valid until 2019-07-01 16:58:26)
+[INFO ] 2019-06-30 20:24:34,309 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 75.0.3770.8 (since Google Chrome 75 is installed in your machine)
+[DEBUG] 2019-06-30 20:24:34,316 WebDriverManager.manage() - Driver chromedriver 75.0.3770.8 found in cache
+[INFO ] 2019-06-30 20:24:34,318 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe
+[INFO ] 2019-06-30 20:24:38,821 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
+[DEBUG] 2019-06-30 20:24:45,218 RegisterSteps.I_Am_At_The_Authentication_Page() - Base URL=http://automationpractice.com/index.php?controller=authentication&back=my-account
+[INFO ] 2019-06-30 20:24:54,473 ScenarioHook.tearDown() - END TEST -> Register with valid email - PASSED
+[INFO ] 2019-06-30 20:25:07,761 ScenarioHook.setUp() - BEGIN TEST -> Register with invalid email
+[INFO ] 2019-06-30 20:25:07,763 ScenarioHook.setUp() - Browser=CHROME32_NOHEAD
+[DEBUG] 2019-06-30 20:25:08,085 Preferences.checkKeyInPreferences() - Preference found chrome75=75.0.3770.8 (valid until 2019-07-01 16:58:26)
+[INFO ] 2019-06-30 20:25:08,086 WebDriverManager.detectDriverVersionFromBrowser() - Using chromedriver 75.0.3770.8 (since Google Chrome 75 is installed in your machine)
+[DEBUG] 2019-06-30 20:25:08,094 WebDriverManager.manage() - Driver chromedriver 75.0.3770.8 found in cache
+[INFO ] 2019-06-30 20:25:08,096 WebDriverManager.exportDriver() - Exporting webdriver.chrome.driver as C:\Users\gayat\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe
+[INFO ] 2019-06-30 20:25:23,528 ScenarioHook.setUp() - Screen Resolution (WxH)=1504x1003
+[DEBUG] 2019-06-30 20:25:32,622 RegisterSteps.I_Am_At_The_Authentication_Page() - Base URL=http://automationpractice.com/index.php?controller=authentication&back=my-account
+[INFO ] 2019-06-30 20:25:42,034 ScenarioHook.tearDown() - END TEST -> Register with invalid email - PASSED

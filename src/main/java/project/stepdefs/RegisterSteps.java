@@ -4,13 +4,11 @@ import org.assertj.core.api.Assertions;
 import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import cucumber.api.Transpose;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import jcucumberng.api.Configuration;
 import jcucumberng.api.Selenium;
-import project.dataobjects.Transaction;
 import project.hooks.ScenarioHook;
 
 public class RegisterSteps {
@@ -44,9 +42,10 @@ public class RegisterSteps {
 	@When("^enter an invalid email address$")
 	public void enter_an_invalid_email_address() throws Throwable {
 		String invalidEmail = Configuration.project("invalid.email");
+		Thread.sleep(3000);
 		selenium.type(invalidEmail, "email.address");
 		selenium.click("create.account");
-		Thread.sleep(3500);
+		Thread.sleep(4000);
 	}
 	
 	@Then("^I should see error message: (.*)$")
